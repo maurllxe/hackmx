@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GitHub | Framework</title>
+    <link rel="icon" href="favicon.png">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/colors.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/sombras.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="js/fontawesome-all.js"></script>
+    <script src="configuracion.js"></script>
+  </head>
+
+  <body>
+    <!--Inicio de header-->
+    <header>
+    <!--Inicio de navbar-->
+    <div class="navbar-fixed">
+      <script>document.write('<nav class="nav-extended color-' + color_primario + ' sombra-abajo-3 animated slideInDown">')</script>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center"><b><script>document.write(nombre_de_la_aplicacion);</script></b></a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a class="waves-effect waves-light btn amber darken-1"><script>document.write(boton_accion); </script></a>
+          </ul>
+          <ul class="right">
+            <li><a class='dropdown-trigger' href="#!" data-target='dropdown1' ><i class="fas fa-ellipsis-v"></i></a></li>
+          </ul>
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!"><i class="fas fa-times"></i>&nbspCerrar</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">uno</a></li>
+            <li><a href="#!"><i class="fas fa-puzzle-piece"></i>&nbspdos</a></li>
+            <li><a href="#!"><i class="fas fa-puzzle-piece"></i>&nbsptres</a></li>
+          </ul>
+        </div>
+        <!-- <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#one"><i class="fab fa-html5"></i>&nbspHTML</a></li>
+            <li class="tab"><a href="#two"><i class="fab fa-css3-alt"></i>&nbspCSS</a></li>
+            <li class="tab"><a href="#three"><i class="fab fa-js-square"></i>&nbspJS</a></li>
+          </ul>
+          <a class="btn-floating btn-large halfway-fab waves-effect waves-light amber">
+            <i class="material-icons">add</i>
+          </a>
+        </div> -->
+      </nav>
+    </div>
+    <!--Fin de navbar-->
+  </header>
+  <!--Fin de header-->
+
+    <!--Inicio de sidenav-->
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img class="responsive-img"src="images/wall.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/user.png"></a>
+        <a href="#name"><span class="white-text name">Mauricio G</span></a>
+        <a href="#email"><span class="white-text email">mau.gar.gonz@icloud.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="fas fa-puzzle-piece"></i>&nbspFirst Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <!--Fin de sidenav-->
+
+    <ul class="sidenav" id="mobile-demo">
+  <li><a href="sass.html">Sass</a></li>
+  <li><a href="badges.html">Components</a></li>
+  <li><a href="collapsible.html">Javascript</a></li>
+  <li><a href="mobile.html">Mobile</a></li>
+</ul>
+
+    <!--Inicio de boton flotante-->
+      <div class="fixed-action-btn click-to-toggle">
+        <a class="btn-floating btn-large red animated zoomIn z-depth-2">
+          <i class="large material-icons">add</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+      <!--Fin de boton flotante-->
+
+
+
+
+
+<!--Inicio de main-->
+<main>
+<!--Inicio de Tab one-->
+    <div id="one" class="row col s12 m12 l12">
+    </div>
+<!--Fin de Tab one-->
+
+<!--Inicio de Tab two-->
+    <div id="two" class="row col s12 l12 m12">
+      <br>
+      <br>
+      <div class="col s12 m8 offset-m2 l6 offset-l3 animated bounce">
+        <div class="card grad-white">
+          <div class="card-content grey-text">
+            <span class="card-title center">Inicio de sesion</span>
+            <form class="" action="index.html" method="post">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Correo</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Contrasena</label>
+              </div>
+              <div class="center s12">
+                <a class="btn amber darken-1">Iniciar sesion</a>
+              </div>
+            </form>
+          </div>
+          <div class="card-action center">
+            <a class="activator btn indigo darken-1">Registrarme</a>
+          </div>
+
+          <div class="card-reveal grad-white grey-text">
+            <span class="card-title"><i class="material-icons right">close</i></span>
+            <form class="" action="index.html" method="post">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Correo</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Contrasena</label>
+              </div>
+              <div class="center">
+                <label>
+                  <input type="checkbox" />
+                  <span>Acepto <a href="#" class="indigo-text">terminos y condiciones.</a></span>
+                </label>
+              </div>
+              <br>
+              <div class="center s12">
+                <a class="btn amber darken-1">Registrarme</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Fin de Tab two-->
+
+<!--Inicio de Tab three-->
+    <div id="three" class="col s12 l12 m12">
+      <h2 class="center amber-text">Edit</h2>
+    </div>
+<!--Fin de Tab four-->
+<!--Inicio de Tab four-->
+    <div id="four" class="col s12 l12 m12">
+      <h2 class="center amber-text">Settings</h2>
+    </div>
+<!--Fin de Tab three-->
+</main>
+<!--Fin de main-->
+
+
+
+    <!--Inicio de footer-->
+    <footer class="footer-fixed">
+      <script>document.write('<div class="sombra-arriba-3 color-' + color_primario + ' animated slideInUp">')</script>
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#one"><i class="fas fa-home fa-lg"></i></a></li>
+          <li class="tab"><a href="#two"><i class="fas fa-user fa-lg"></i></a></li>
+          <li class="tab"><a href="#three"><i class="fas fa-edit fa-lg"></i></a></li>
+          <li class="tab"><a href="#four"><i class="fas fa-bookmark fa-lg"></i></a></li>
+          <li class="tab right"><a href="#four"><i class="fas fa-cog fa-lg"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--Fin de footer-->
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $( document ).ready(function(){
+        $('.sidenav').sidenav();
+        $('.dropdown-trigger').dropdown();
+        $('.fixed-action-btn').floatingActionButton({
+          hoverEnabled: false
+        });
+        $('.tabs').tabs();
+      })
+    </script>
+    <!--Fin de Import jQuery before materialize.js-->
+
+  </body>
+</html>

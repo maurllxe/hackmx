@@ -1,0 +1,59 @@
+.color-rojo {
+  background: linear-gradient(to bottom right, #f44336, #ef5350);
+}
+
+.color-rosa {
+  background: linear-gradient(to bottom right, #e91e63, #ec407a);
+}
+
+.color-purpura {
+  background: linear-gradient(to bottom right, #9c27b0, #ab47bc);
+}
+
+.color-morado {
+  background: linear-gradient(to bottom right, #673ab7, #7e57c2);
+}
+
+.color-indigo {
+  background: linear-gradient(to bottom right, #3f51b5, #5c6bc0);
+}
+
+.color-azul {
+  background: linear-gradient(to bottom right, #2196f3, #42a5f5);
+}
+
+.color-teal {
+  background: linear-gradient(to bottom right, #009688, #26a69a);
+}
+
+.color-verde {
+  background: linear-gradient(to bottom right, #558b2f, #7cb342);
+}
+
+.color-amber {
+  background: linear-gradient(to bottom right, #ffc107, #ffca28);
+}
+
+.color-naranja {
+  background: linear-gradient(to bottom right, #ff9800, #ffa726);
+}
+
+.color-blanco {
+  background: linear-gradient(to bottom right, #f5f5f5, #fafafa);
+}
+
+.color-negro {
+  background: linear-gradient(to bottom right, #212121, #424242);
+}
+
+.color-personalizado-1 {
+  background: linear-gradient(to bottom right, #212121, #424242);
+}
+
+.color-personalizado-2 {
+  background: linear-gradient(to bottom right, #212121, #424242);
+}
+
+.color-personalizado-3 {
+  background: linear-gradient(to bottom right, #212121, #424242);
+}
