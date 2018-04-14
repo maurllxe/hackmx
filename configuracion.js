@@ -1,11 +1,11 @@
 // Personalizacion de apariencia
-var color_primario = "indigo";
+var color_primario = "rojo";
 var color_secundario = "pol";
 var redondeado = "amber";
 var sombras = "amber";
 
 //Configuracion de la barra superior
-var nombre_de_la_aplicacion = "Framework";
+var nombre_de_la_aplicacion = "Santander";
 var boton_accion = "boton!";
 
 //Configuracion de Barra lateral
